@@ -1,0 +1,32 @@
+.form-container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+.form-container form {
+	width: 40%;
+	height: 380px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	background: #ddd;
+	margin-top: 30px;
+}
+
+.form-container form input[type="text"],
+.form-container form input[type="email"],
+.form-container form input[type="number"] {
+	width: 60%;
+	height: 40px;
+	padding-left: 10px;
+}
+
+.form-container form input[type="radio"] {
+	margin-right: 20px;
+	margin-left: 5px;
+}
